@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🛰️ OPENSAT: Open Source Satellite Community
+# 🛰️ OPEN TianSuan: Open Source Community for Space
 
 **Open satellite software, resources, and knowledge.**
 
-An open-source community called OPENSAT, focused on satellite computing, software, applications, and open collaboration.
+An open-source community called OPEN TianSuan, focused on satellite computing, software, applications, and open collaboration.
 
 [![Repo views](https://raw.githubusercontent.com/Satellite-OSS/.github/main/traffic/sum.svg)](https://github.com/Satellite-OSS/.github/tree/main/traffic "Cumulative recorded views across our seven repositories; updated hourly") [![Discussions](https://img.shields.io/badge/Discussions-Join%20the%20Community-2ea44f?style=flat-square&logo=github)](https://github.com/orgs/Satellite-OSS-BUPT/discussions)
 
@@ -18,11 +18,11 @@ Satellite development sits at the intersection of aerospace, communications, and
 
 As [our ASE 2026 study](https://github.com/Satellite-OSS/SatellitePaper) of the open-source satellite software landscape shows, open source has already proven itself in space. Flight software frameworks such as NASA's [cFS](https://github.com/nasa/cFS) and JPL's [F´](https://github.com/nasa/fprime) have flown on dozens of missions, from CubeSats to the Ingenuity Mars Helicopter; open simulation platforms let anyone model orbits, constellations, and onboard workloads without launching anything; community ground station networks like [SatNOGS](https://satnogs.org/) span the globe; and in-orbit experiment platforms such as the [Tiansuan Constellation](http://www.tiansuan.org.cn/) initiated by BUPT now open the code, data, and systems of real satellites to researchers everywhere. **Yet the ecosystem is still in its early days**: resources are scattered across communities, shared datasets and benchmarks are scarce, ready-to-run onboard applications are rare, and published results are hard to reproduce.
 
-**That is why OPENSAT exists**: to lower the barrier to satellite computing by gathering papers, datasets, tools, and runnable software in one open place, so that anyone can learn, reproduce, and build on each other's work.
+**That is why OPEN TianSuan exists**: to lower the barrier to satellite computing by gathering papers, datasets, tools, and runnable software in one open place, so that anyone can learn, reproduce, and build on each other's work.
 
 ---
 
-## 🚀 Explore OPENSAT
+## 🚀 Explore OPEN TianSuan
 
 <table>
   <tr>
