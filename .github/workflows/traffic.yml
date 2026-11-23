@@ -43,7 +43,7 @@ jobs:
         run: |
           for aggregate in traffic/*.csv; do
             [ "$aggregate" = traffic/sum.csv ] && continue
-            repository="Satellite-OSS/$(basename "$aggregate" .csv)"
+            repository="OPEN-TianSuan/$(basename "$aggregate" .csv)"
             scratch=$(mktemp -d)
             python .github-repo-stats/fetch.py "$repository" --snapshot-directory "$scratch/snapshots"
             python .github-repo-stats/analyze.py "$repository" "$scratch/snapshots" \

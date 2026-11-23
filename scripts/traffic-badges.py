@@ -13,7 +13,7 @@ def render(output, label, count):
         return
     query = urlencode({'label': label, 'message': str(count), 'color': 'brightgreen',
                        'logo': 'github', 'style': 'flat-square'})
-    request = Request('https://img.shields.io/static/v1?' + query, headers={'User-Agent': 'Satellite-OSS-traffic'})
+    request = Request('https://img.shields.io/static/v1?' + query, headers={'User-Agent': 'OPEN-TianSuan-traffic'})
     with urlopen(request, timeout=30) as response:
         svg = response.read()
     if ElementTree.fromstring(svg).attrib.get('aria-label') != expected:
