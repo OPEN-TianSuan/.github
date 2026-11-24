@@ -39,11 +39,18 @@ As [our ASE 2026 study](https://doi.org/10.1145/3832783.3834343) of the open-sou
 
 ### 🧩 [ApplicationLayer](https://github.com/OPEN-TianSuan/ApplicationLayer)
 
-Satellite application software built around the ten App1–App10 cases from the SateLight update framework, spanning perception, situational awareness, networking, and foundation-model applications.
+Satellite application software spanning perception, situational awareness, networking, and foundation-model applications.
 
 ### ⚙️ [ComputeOperationsLayer](https://github.com/OPEN-TianSuan/ComputeOperationsLayer)
 
-Compute operations for satellite computing, from model pretraining and post-training through inference, hardening, operations, and security.
+Compute operations for satellite computing, organised by the model lifecycle and operational concerns.
+
+- **[Model Pretraining](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelPretraining)** covers foundation-model pretraining.
+- **[Model Post-Training](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelPostTraining)** covers foundation-model post-training.
+- **[Model Inference](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelInference)** hosts inference workloads.
+- **[Foundation Model Hardening Toolchain](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/FoundationModelHardeningToolchain)** covers model hardening.
+- **[Operations](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/Operations)** covers operational workflows.
+- **[Security](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/Security)** covers security work.
 
 ### 🏗️ [InfrastructureLayer](https://github.com/OPEN-TianSuan/InfrastructureLayer)
 
@@ -58,11 +65,7 @@ Engineering support for satellite software, with foundational software developme
 
 ### 🛰️ [SimulationPlatform](https://github.com/OPEN-TianSuan/SimulationPlatform)
 
-Open-source platforms for simulating satellite computing constellations.
-
-- **[Satellite communication networks and protocols](https://github.com/OPEN-TianSuan/SimulationPlatform#satellite-communication-networks-and-protocols)** covers constellation networking and protocol simulation.
-- **[Orbital analysis and mission dynamics](https://github.com/OPEN-TianSuan/SimulationPlatform#orbital-analysis-and-mission-dynamics)** covers orbit and mission analysis.
-- **[RF, SDR, and electromagnetic simulation](https://github.com/OPEN-TianSuan/SimulationPlatform#rf-sdr-and-electromagnetic-simulation)** covers radio and electromagnetic modelling.
+Open-source platforms for simulating satellite computing constellations, covering communication networks, orbital analysis, and RF/SDR simulation.
 
 ### 🗂️ [SatelliteData](https://github.com/OPEN-TianSuan/SatelliteData)
 
