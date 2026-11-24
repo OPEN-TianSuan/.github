@@ -30,7 +30,7 @@ Yet the ecosystem remains fragmented: software and documentation are scattered, 
 
 OPEN TianSuan organizes open-source resources into seven major areas, covering the satellite software stack, engineering tools, simulation environments, datasets, and technical knowledge.
 
-<details>
+<details open>
 <summary><strong>🗺️ Community Architecture - English and Chinese</strong></summary>
 
 <p align="center">
