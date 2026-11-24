@@ -32,12 +32,7 @@ As [our ASE 2026 study](https://doi.org/10.1145/3832783.3834343) of the open-sou
 
 ### 🧩 [Application Layer](https://github.com/OPEN-TianSuan/ApplicationLayer)
 
-Satellite application software, organised by capability:
-
-- **[Image Classification Software](https://github.com/OPEN-TianSuan/ApplicationLayer/tree/main/ImageClassificationSoftware)** collects visual perception applications.
-- **[Situational Awareness Software](https://github.com/OPEN-TianSuan/ApplicationLayer/tree/main/SituationalAwarenessSoftware)** gathers attitude determination, change detection, ship detection, and tracking applications.
-- **[Satellite Networking Software](https://github.com/OPEN-TianSuan/ApplicationLayer/tree/main/SatelliteNetworkingSoftware)** covers caching, core network, compression, and encoding.
-- **[Foundation Model Applications](https://github.com/OPEN-TianSuan/ApplicationLayer/tree/main/FoundationModelApplications)** is reserved for foundation-model applications.
+Satellite application software: the ten App1–App10 cases from the SateLight update framework, covering attitude determination, change detection and encoding, client caching, core network, compression, image encoding, object and ship detection, and tracking.
 
 </td>
 <td width="50%" valign="top">
