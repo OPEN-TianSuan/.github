@@ -37,101 +37,54 @@ As [our ASE 2026 study](https://doi.org/10.1145/3832783.3834343) of the open-sou
 
 </details>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/accent-software.svg" width="100%" height="4" alt="">
-
 ### 🛰️ [ApplicationLayer](https://github.com/OPEN-TianSuan/ApplicationLayer)
 
 Satellite application software: the ten App1–App10 cases from the SateLight update framework, covering attitude determination, change detection and encoding, client caching, core network, compression, image encoding, object and ship detection, and tracking.
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/accent-software.svg" width="100%" height="4" alt="">
 
 ### 🧠 [ComputeOperationsLayer](https://github.com/OPEN-TianSuan/ComputeOperationsLayer)
 
 Compute operations for satellite computing, covering model training, inference, hardening, operations, and security.
 
-- **[Model Pretraining](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelPretraining)** and **[Model Post-Training](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelPostTraining)** cover foundation-model training.
-- **[Model Inference](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelInference)** hosts inference workloads.
-- **[Foundation Model Hardening Toolchain](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/FoundationModelHardeningToolchain)** covers model hardening.
-- **[Operations](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/Operations)** and **[Security](https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/Security)** cover operational and security work.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/accent-software.svg" width="100%" height="4" alt="">
+- **Model Pretraining** and **Model Post-Training** cover foundation-model training.
+- **Model Inference** hosts inference workloads.
+- **Foundation Model Hardening Toolchain** covers model hardening.
+- **Operations** and **Security** cover operational and security work.
 
 ### 🏗️ [InfrastructureLayer](https://github.com/OPEN-TianSuan/InfrastructureLayer)
 
 Satellite infrastructure software, from foundational onboard software to platform management, runtime support, and software maintenance.
 
-- **[Platform Management](https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/PlatformManagement)** hosts the space-native cloud platform.
-- **[Runtime Support](https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/RuntimeSupport)** provides resumable inference, lightweight execution, and compute acceleration.
-- **[Software Maintenance](https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/SoftwareMaintenance)** covers software updates and reliability assurance.
-- **[Foundational Software](https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/FoundationalSoftware)** covers operating systems, housekeeping software, and attitude and orbit control software.
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/accent-tools.svg" width="100%" height="4" alt="">
+- **Platform Management** hosts the space-native cloud platform.
+- **Runtime Support** provides resumable inference, lightweight execution, and compute acceleration.
+- **Software Maintenance** covers software updates and reliability assurance.
+- **Foundational Software** covers operating systems, housekeeping software, and attitude and orbit control software.
 
 ### 🛠️ [EngineeringSupport](https://github.com/OPEN-TianSuan/EngineeringSupport)
 
 Engineering support for satellite software, with foundational software development kits and evaluation platforms.
 
-- **[Foundational Software Development Kits](https://github.com/OPEN-TianSuan/EngineeringSupport/tree/main/FoundationalSoftwareDevelopmentKits)** gathers frameworks, libraries, and toolchain projects.
-- **[Evaluation Platforms](https://github.com/OPEN-TianSuan/EngineeringSupport/tree/main/EvaluationPlatforms)** collects platforms for benchmarking and evaluation.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/accent-tools.svg" width="100%" height="4" alt="">
+- **Foundational Software Development Kits** gathers frameworks, libraries, and toolchain projects.
+- **Evaluation Platforms** collects platforms for benchmarking and evaluation.
 
 ### 🌐 [SimulationPlatform](https://github.com/OPEN-TianSuan/SimulationPlatform)
 
 Open-source platforms for simulating satellite computing constellations, covering communication networks, orbital analysis, and RF/SDR simulation.
 
-</td>
-<td width="50%" valign="top">
-
-<img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/accent-data.svg" width="100%" height="4" alt="">
-
 ### 🗂️ [SatelliteData](https://github.com/OPEN-TianSuan/SatelliteData)
 
 Satellite data collections spanning imagery, orbits, telemetry, and communication links.
 
-- **[Remote Sensing Imagery](https://github.com/OPEN-TianSuan/SatelliteData/tree/main/RemoteSensingImagery)** curates open datasets and data-access platforms.
-- **[Orbital Data](https://github.com/OPEN-TianSuan/SatelliteData/tree/main/OrbitalData)** collects orbital products such as TLE sets and ephemerides.
-- **[Telemetry Data](https://github.com/OPEN-TianSuan/SatelliteData/tree/main/TelemetryData)** shares satellite telemetry and collection notes.
-- **[Communication Data](https://github.com/OPEN-TianSuan/SatelliteData/tree/main/CommunicationData)** provides communication data and link measurements.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/accent-literature.svg" width="100%" height="4" alt="">
+- **Remote Sensing Imagery** curates open datasets and data-access platforms.
+- **Orbital Data** collects orbital products such as TLE sets and ephemerides.
+- **Telemetry Data** shares satellite telemetry and collection notes.
+- **Communication Data** provides communication data and link measurements.
 
 ### 📄 [TechnicalLiterature](https://github.com/OPEN-TianSuan/TechnicalLiterature)
 
 Reference material on satellite systems, from peer-reviewed research to standards and technical reports.
 
-- **[Research Papers](https://github.com/OPEN-TianSuan/TechnicalLiterature/tree/main/ResearchPapers)** indexes papers from top conferences and journals.
-- **[Technical Documentation](https://github.com/OPEN-TianSuan/TechnicalLiterature/tree/main/TechnicalDocumentation)** brings together standards, specifications, research reports, and engineering guidelines.
-
-</td>
-<td></td>
-</tr>
-</table>
+- **Research Papers** indexes papers from top conferences and journals.
+- **Technical Documentation** brings together standards, specifications, research reports, and engineering guidelines.
 
 Our repositories are continuously updated with new resources, tools, and projects.
 
