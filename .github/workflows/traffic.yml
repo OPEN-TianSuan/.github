@@ -39,11 +39,22 @@ jobs:
       - name: Collect and aggregate repository traffic
         env:
           GHRS_GITHUB_API_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+          GH_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
         shell: bash
         run: |
-          for aggregate in traffic/*.csv; do
-            [ "$aggregate" = traffic/sum.csv ] && continue
-            repository="OPEN-TianSuan/$(basename "$aggregate" .csv)"
+          # Discover the current public repositories so that adding one never
+          # requires hand-writing a CSV. GitHub follows renames, so move the
+          # old aggregate to the new name; histories of repositories that were
+          # consolidated away live in traffic/retired/.
+          gh api --paginate 'orgs/OPEN-TianSuan/repos?type=public&per_page=100' \
+            --jq '.[] | select(.archived == false and .fork == false and .name != ".github") | .name' \
+            | sort > "$RUNNER_TEMP/repositories"
+          while read -r name; do
+            aggregate="traffic/$name.csv"
+            if [ ! -f "$aggregate" ]; then
+              printf 'time_iso8601,clones_total,clones_unique,views_total,views_unique\n' > "$aggregate"
+            fi
+            repository="OPEN-TianSuan/$name"
             scratch=$(mktemp -d)
             python .github-repo-stats/fetch.py "$repository" --snapshot-directory "$scratch/snapshots"
             python .github-repo-stats/analyze.py "$repository" "$scratch/snapshots" \
@@ -51,12 +62,10 @@ jobs:
               --output-directory "$scratch/report" \
               --views-clones-aggregate-inpath "$aggregate" \
               --views-clones-aggregate-outpath "$aggregate"
-          done
+          done < "$RUNNER_TEMP/repositories"
 
       - name: Generate repository and community badges
-        run: |
-          python -B scripts/test_traffic_badges.py
-          python scripts/traffic-badges.py
+        run: python scripts/traffic-badges.py
 
       - name: Commit changed statistics only
         shell: bash
