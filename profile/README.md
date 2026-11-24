@@ -1,440 +1,328 @@
- <div align="center">
+<div align="center">
 
-🛰️ OPEN TianSuan
+# 🛰️ OPEN TianSuan
 
-Open-Source Community for Space Computing
+### Open-Source Community for Space Computing
 
-Discover · Share · Build for Space
+**Discover open technologies. Reuse proven ideas. Build for space.**
 
-An open-source community dedicated to advancing space computing through shared satellite software, engineering tools, open datasets, and technical knowledge.
+A community for satellite software, computing platforms, engineering resources, open datasets, and research knowledge.
 
-
-
-
-Explore Repositories · Join Discussions · Contribute
+[![Repository Views](https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/traffic/sum.svg)](https://github.com/OPEN-TianSuan/.github/tree/main/traffic "Cumulative recorded repository views")
+[![GitHub Discussions](https://img.shields.io/badge/GitHub-Join%20Discussions-2f634f?style=flat-square&logo=github)](https://github.com/orgs/OPEN-TianSuan/discussions)
+[![Organization](https://img.shields.io/badge/GitHub-Explore%20Repositories-374151?style=flat-square&logo=github)](https://github.com/OPEN-TianSuan)
 
 </div>
 
-🌍 Why Open Source?
+---
 
-Space computing brings together aerospace, communications, and computer science. As satellite constellations expand and computing capabilities move into orbit, space systems increasingly rely on software spanning spacecraft platforms, onboard computing, communication networks, data processing, and mission applications.
+## 🌍 Why OPEN TianSuan?
 
-These challenges cross disciplinary and organizational boundaries. No single research group or company can develop and validate the entire ecosystem alone. Open collaboration enables shared software, shared data, and reproducible research, allowing the community to build on collective progress.
+Space computing brings together aerospace, communications, and computer science. As satellite constellations expand and computing moves into orbit, software must span spacecraft platforms, onboard execution, communication networks, and mission applications. These challenges cross disciplines and organizations. **Shared implementations, data, and experimental knowledge help researchers reproduce results and build on one another's work.**
 
-Open source has already demonstrated its value in space. Our ASE 2026 study of the open-source satellite software landscape highlights this growing ecosystem.
+Our [ASE 2026 study](https://doi.org/10.1145/3832783.3834343) surveys the open-source satellite software landscape. Projects such as NASA's [cFS](https://github.com/nasa/cFS), JPL's [F'](https://github.com/nasa/fprime), and the community ground-station network [SatNOGS](https://satnogs.org/) demonstrate the value of reusable software and open collaboration. Initiatives such as the [Tiansuan Constellation](http://www.tiansuan.org.cn/) also help extend opportunities for research involving real spacecraft.
 
-Flight software frameworks such as NASA's cFS and JPL's F´ have supported dozens of missions, ranging from CubeSats to the Ingenuity Mars Helicopter. Open-source simulation platforms enable researchers to study orbital dynamics, satellite constellations, communication networks, and onboard workloads without launching a spacecraft. Community ground-station networks such as SatNOGS connect stations worldwide. Meanwhile, in-orbit experiment platforms such as the Tiansuan Constellation, initiated by BUPT, are extending open experimentation to real spacecraft by making satellite systems, code, data, and experiments more accessible to researchers.
+Yet the ecosystem remains fragmented: software and documentation are scattered, shared datasets and benchmarks are limited, and reproducing published experiments can be difficult. **OPEN TianSuan brings these resources together so that more people can discover, reuse, evaluate, and contribute to space computing.**
 
-Despite this progress, the ecosystem remains fragmented. Software and technical resources are scattered across different repositories and communities. Shared datasets and benchmarks remain limited. Ready-to-run onboard applications are still uncommon, and published experimental results can be difficult to reproduce.
+---
 
-OPEN TianSuan aims to reduce this fragmentation. We bring together software, engineering tools, datasets, and technical literature in one open community, making it easier for researchers and developers to discover existing work, reproduce results, reuse software, and contribute new capabilities.
+## 🚀 Explore the Ecosystem
 
-🚀 Explore OPEN TianSuan
+OPEN TianSuan organizes open-source resources into seven major areas, covering the satellite software stack, engineering tools, simulation environments, datasets, and technical knowledge.
 
-OPEN TianSuan organizes open-source resources into interconnected areas covering satellite software, computing capabilities, engineering tools, simulation environments, datasets, and technical knowledge.
+<details>
+<summary><strong>🗺️ Community Architecture - English and Chinese</strong></summary>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/architecture-en.png" width="100%" alt="OPEN TianSuan Community Architecture">
+  <img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/architecture-en.png" width="100%" alt="OPEN TianSuan community architecture in English">
 </p>
 
 <details>
-<summary><strong>🇨🇳 View Chinese Architecture</strong></summary>
-
+<summary>Chinese Architecture</summary>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/architecture-zh.png" width="100%" alt="OPEN TianSuan Chinese Architecture">
+  <img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/architecture-zh.png" width="100%" alt="OPEN TianSuan community architecture in Chinese">
 </p>
-
+</details>
 </details>
 
-🧭 Community Repositories
+### CORE COMPUTING STACK
 
-<table>
+<table width="100%" border="1" cellpadding="10" cellspacing="0">
 <tr>
-<td width="50%" valign="top">
-
-<h3>🧩 Application Layer</h3>
-
-Open-source software for satellite missions, including image processing, situational awareness, satellite networking, and foundation-model applications.
-
-<a href="https://github.com/OPEN-TianSuan/ApplicationLayer">Explore Repository →</a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>⚙️ Compute Operations Layer</h3>
-
-Resources for developing and operating computing workloads in space, covering model lifecycle management, operational workflows, and security.
-
-<a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer">Explore Repository →</a>
-
+<td width="1%" bgcolor="#416B4D">&nbsp;</td>
+<td width="10%" align="center" bgcolor="#B5CEBA"><h1>01</h1></td>
+<td bgcolor="#C5DCC9">
+<h2>🧩 Application Layer</h2>
+<p><strong>Mission-facing software</strong> for image classification, situational awareness, satellite networking, and foundation-model applications.</p>
+<p><a href="https://github.com/OPEN-TianSuan/ApplicationLayer"><strong>Explore Application Layer &rarr;</strong></a></p>
 </td>
 </tr>
+<tr><td colspan="3" bgcolor="#EDF4EE">
+<details open>
+<summary><strong>Browse application areas</strong></summary>
+<br>
+<table width="100%" border="0" cellpadding="8" cellspacing="6">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" bgcolor="#FFFFFF"><strong>Image Classification Software</strong></td>
+<td width="50%" bgcolor="#FFFFFF"><strong>Situational Awareness Software</strong></td>
+</tr>
+ <tr></tr>
+<tr>
+<td width="50%" bgcolor="#FFFFFF"><strong>Satellite Networking Software</strong></td>
+<td width="50%" bgcolor="#FFFFFF"><strong>Foundation Model Applications</strong></td>
+</tr>
+ <tr></tr>
+ <tr>
+<td width="50%" bgcolor="#FFFFFF"><strong>Object Detection Software</strong></td>
+<td width="50%" bgcolor="#FFFFFF"><strong>...</strong></td>
+ </tr>
+</table>
+</details>
+</td></tr>
+</table>
 
-<h3>🏗️ Infrastructure Layer</h3>
+<br>
 
-Foundational software for satellite computing, including platform management, runtime support, software maintenance, and operating environments.
-
-<a href="https://github.com/OPEN-TianSuan/InfrastructureLayer">Explore Repository →</a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>🛠️ Engineering Tools</h3>
-
-Reusable software development resources, engineering frameworks, libraries, and evaluation platforms.
-
-<a href="https://github.com/OPEN-TianSuan/EngineeringSupport">Explore Repository →</a>
-
+<table width="100%" border="1" cellpadding="10" cellspacing="0">
+<tr>
+<td width="1%" bgcolor="#416B4D">&nbsp;</td>
+<td width="10%" align="center" bgcolor="#B5CEBA"><h1>02</h1></td>
+<td bgcolor="#C5DCC9">
+<h2>⚙️ Compute Operations Layer</h2>
+<p><strong>Computing workloads and operational capabilities</strong> spanning model training, inference, model hardening, operations, and security.</p>
+<p><a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer"><strong>Explore Compute Operations Layer &rarr;</strong></a></p>
 </td>
 </tr>
+<tr><td colspan="3" bgcolor="#EDF4EE">
+<details open>
+<summary><strong>Browse 6 resource areas</strong></summary>
+<br>
+<table width="100%" border="0" cellpadding="8" cellspacing="6">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelPretraining"><strong>Model Pretraining</strong></a><br>Foundation-model pretraining resources.</td>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelPostTraining"><strong>Model Post-Training</strong></a><br>Post-training methods and implementations.</td>
+</tr>
+ <tr></tr>
+<tr>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelInference"><strong>Model Inference</strong></a><br>Inference workloads and implementations.</td>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/FoundationModelHardeningToolchain"><strong>Foundation Model Hardening Toolchain</strong></a><br>Methods and tools for model hardening.</td>
+</tr>
+ <tr></tr>
+<tr>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/Operations"><strong>Operations</strong></a><br>Operational workflows and management.</td>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/Security"><strong>Security</strong></a><br>Security tools and research.</td>
+</tr>
+</table>
+</details>
+</td></tr>
+</table>
 
-<h3>🛰️ Simulation Platform</h3>
+<br>
 
-Open-source environments for satellite computing constellation simulation, orbital analysis, communication networks, and RF/SDR experiments.
-
-<a href="https://github.com/OPEN-TianSuan/SimulationPlatform">Explore Repository →</a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>🗂️ Satellite Data</h3>
-
-Curated open datasets covering remote sensing imagery, orbital information, telemetry, and satellite communications.
-
-<a href="https://github.com/OPEN-TianSuan/SatelliteData">Explore Repository →</a>
-
+<table width="100%" border="1" cellpadding="10" cellspacing="0">
+<tr>
+<td width="1%" bgcolor="#416B4D">&nbsp;</td>
+<td width="10%" align="center" bgcolor="#B5CEBA"><h1>03</h1></td>
+<td bgcolor="#C5DCC9">
+<h2>🏗️ Infrastructure Layer</h2>
+<p><strong>The software foundation for space computing</strong>, bringing together foundational software, platform management, runtime support, and software maintenance.</p>
+<p><a href="https://github.com/OPEN-TianSuan/InfrastructureLayer"><strong>Explore Infrastructure Layer &rarr;</strong></a></p>
 </td>
 </tr>
+<tr><td colspan="3" bgcolor="#EDF4EE">
+<details open>
+<summary><strong>Browse 4 infrastructure areas</strong></summary>
+<br>
+<table width="100%" border="0" cellpadding="8" cellspacing="6">
 <tr>
-<td width="50%" valign="top">
-
-<h3>📚 Technical Literature</h3>
-
-A knowledge collection of research papers, technical standards, specifications, and engineering documentation.
-
-<a href="https://github.com/OPEN-TianSuan/TechnicalLiterature">Explore Repository →</a>
-
+<td width="50%" valign="top" bgcolor="#FFFFFF">
+<h3>Foundational Software</h3>
+Core spacecraft software.
+<ul>
+<li><a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/FoundationalSoftware/OperatingSystems">Operating Systems</a></li>
+<li><a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/FoundationalSoftware/HousekeepingSoftware">Housekeeping Software</a></li>
+<li><a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/FoundationalSoftware/AttitudeOrbitControlSoftware">Attitude and Orbit Control Software</a></li>
+</ul>
+<a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/FoundationalSoftware">Explore Foundational Software &rarr;</a>
 </td>
-<td width="50%" valign="top">
-
-<h3>🌐 Community Collaboration</h3>
-
-Connect with researchers and developers, exchange ideas, introduce projects, and contribute to the open-source space computing ecosystem.
-
-<a href="https://github.com/orgs/OPEN-TianSuan/discussions">Join Discussions →</a>
-
+<td width="50%" valign="top" bgcolor="#FFFFFF">
+<h3>Platform Management</h3>
+Space-native cloud platform resources.
+<ul>
+<li><a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/PlatformManagement/SpaceNativeCloudPlatform">Space-Native Cloud Platform</a></li>
+</ul>
+<a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/PlatformManagement">Explore Platform Management &rarr;</a>
+</td>
+</tr>
+ <tr></tr>
+<tr>
+<td valign="top" bgcolor="#FFFFFF">
+<h3>Runtime Support</h3>
+Runtime capabilities for efficient and resilient execution.
+<ul>
+<li><a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/RuntimeSupport/ResumableInference">Resumable Inference</a></li>
+<li><a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/RuntimeSupport/LightweightExecution">Lightweight Execution</a></li>
+<li><a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/RuntimeSupport/ComputeAcceleration">Compute Acceleration</a></li>
+</ul>
+<a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/RuntimeSupport">Explore Runtime Support &rarr;</a>
+</td>
+<td valign="top" bgcolor="#FFFFFF">
+<h3>Software Maintenance</h3>
+Resources for software updates and reliability assurance.
+<ul>
+<li><a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/SoftwareMaintenance/SoftwareUpdates">Software Updates</a></li>
+<li><a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/SoftwareMaintenance/ReliabilityAssurance">Reliability Assurance</a></li>
+</ul>
+<a href="https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/SoftwareMaintenance">Explore Software Maintenance &rarr;</a>
 </td>
 </tr>
 </table>
+</details>
+</td></tr>
+</table>
 
-⚙️ Compute Operations Layer
+### OPEN SUPPORT RESOURCES
 
-Resources are organized around model development, inference, operational requirements, and security.
-
-<table>
+<table width="100%" border="1" cellpadding="10" cellspacing="0">
 <tr>
-<td width="33%" valign="top">
-
-<h3>🧠 Model Pretraining</h3>
-
-Foundation-model pretraining resources and implementations.
-
-<a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelPretraining">Explore →</a>
-
-</td>
-<td width="33%" valign="top">
-
-<h3>🔬 Model Post-Training</h3>
-
-Techniques and resources for foundation-model post-training.
-
-<a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelPostTraining">Explore →</a>
-
-</td>
-<td width="33%" valign="top">
-
-<h3>⚡ Model Inference</h3>
-
-Inference workloads and implementations for satellite computing.
-
-<a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/ModelInference">Explore →</a>
-
+<td width="1%" bgcolor="#416B4D">&nbsp;</td>
+<td width="10%" align="center" bgcolor="#B5CEBA"><h1>04</h1></td>
+<td bgcolor="#C5DCC9">
+<h2>🛰️ Simulation Platform</h2>
+<p><strong>Simulation environments for satellite computing constellations</strong>, covering orbital analysis, communication networks, and RF/SDR systems.</p>
+<p><a href="https://github.com/OPEN-TianSuan/SimulationPlatform"><strong>Explore Simulation Platform &rarr;</strong></a></p>
 </td>
 </tr>
+<tr><td colspan="3" bgcolor="#EDF4EE">
+<details open>
+<summary><strong>Browse simulation capabilities</strong></summary>
+<br>
+<table width="100%" border="0" cellpadding="8" cellspacing="6">
 <tr>
-<td width="33%" valign="top">
+<td width="33%" align="center" bgcolor="#FFFFFF"><strong>Orbital Analysis</strong></td>
+<td width="33%" align="center" bgcolor="#FFFFFF"><strong>Communication Network Simulation</strong></td>
+<td width="33%" align="center" bgcolor="#FFFFFF"><strong>RF/SDR Simulation</strong></td>
+</tr>
+</table>
+</details>
+</td></tr>
+</table>
 
-<h3>🛡️ Model Hardening</h3>
+<br>
 
-Tools and methods for foundation-model hardening.
-
-<a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/FoundationModelHardeningToolchain">Explore →</a>
-
+<table width="100%" border="1" cellpadding="10" cellspacing="0">
+<tr>
+<td width="1%" bgcolor="#416B4D">&nbsp;</td>
+<td width="10%" align="center" bgcolor="#B5CEBA"><h1>05</h1></td>
+<td bgcolor="#C5DCC9">
+<h2>🛠️ Engineering Tools</h2>
+<p><strong>Reusable development resources and evaluation tools</strong> for satellite software. Resuable development resources represent flight-software frameworks, framework extensions, protocol stacks, libraries, and supporting development components. Evaluation tools represent some benchmarks and evaluation systems.</p>
+<p><a href="https://github.com/OPEN-TianSuan/EngineeringSupport"><strong>Explore Engineering Tools &rarr;</strong></a></p>
 </td>
-<td width="33%" valign="top">
-
-<h3>⚙️ Operations</h3>
-
-Resources for computing operations and system management.
-
-<a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/Operations">Explore →</a>
-
+</tr>
+<tr><td colspan="3" bgcolor="#EDF4EE">
+<details open> 
+<summary><strong>Browse 2 engineering resource groups</strong></summary>
+<br>
+<table width="100%" border="0" cellpadding="8" cellspacing="6">
+<tr>
+<td width="50%" valign="top" bgcolor="#FFFFFF">
+<h3>Foundational Software Development Kits</h3>
+Reusable flight-software frameworks, libraries, etc.
+<p><a href="https://github.com/OPEN-TianSuan/EngineeringSupport/tree/main/FoundationalSoftwareDevelopmentKits"><strong>Browse Development Kits &rarr;</strong></a></p>
 </td>
-<td width="33%" valign="top">
-
-<h3>🔐 Security</h3>
-
-Security tools, methods, and research relevant to satellite computing.
-
-<a href="https://github.com/OPEN-TianSuan/ComputeOperationsLayer/tree/main/Security">Explore →</a>
-
+<td width="50%" valign="top" bgcolor="#FFFFFF">
+<h3>Evaluation Platforms</h3>
+Platforms and tools for benchmarking and evaluating satellite workloads.
+<p><a href="https://github.com/OPEN-TianSuan/EngineeringSupport/tree/main/EvaluationPlatforms"><strong>Explore Platforms &rarr;</strong></a></p>
 </td>
 </tr>
 </table>
-
-🛠️ Engineering Tools
-
-Engineering resources for developing, integrating, testing, and evaluating satellite software.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>🧩 Foundational Software Development Kits</h3>
-
-A collection of reusable flight-software frameworks, framework extensions, protocol stacks, libraries, and supporting development components.
-
-<a href="https://github.com/OPEN-TianSuan/EngineeringSupport/tree/main/FoundationalSoftwareDevelopmentKits">Browse Development Kits →</a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>📊 Evaluation Platforms</h3>
-
-Platforms and tools for benchmarking, testing, and evaluating satellite software and computing workloads.
-
-<a href="https://github.com/OPEN-TianSuan/EngineeringSupport/tree/main/EvaluationPlatforms">Explore Platforms →</a>
-
-</td>
-</tr>
+</details>
+</td></tr>
 </table>
 
-🛰️ Simulation Platform
+<br>
 
-Open-source platforms for studying satellite computing constellations and their operating environments.
-
-<table>
+<table width="100%" border="1" cellpadding="10" cellspacing="0">
 <tr>
-<td width="33%" align="center">
-
-🌍 Orbital Analysis
-
+<td width="1%" bgcolor="#416B4D">&nbsp;</td>
+<td width="10%" align="center" bgcolor="#B5CEBA"><h1>06</h1></td>
+<td bgcolor="#C5DCC9">
+<h2>🗂️ Satellite Data</h2>
+<p><strong>Open datasets and data-access resources</strong> supporting research, experimentation, and satellite applications. These datasets involve remote sensing imagery, orbital data, telemetry data, communication data, etc.</p>
+<p><a href="https://github.com/OPEN-TianSuan/SatelliteData"><strong>Explore Satellite Data &rarr;</strong></a></p>
 </td>
-<td width="33%" align="center">
-
-📡 Communication Networks
-
-</td>
-<td width="33%" align="center">
-
-📶 RF / SDR Simulation
-
-</td>
+</tr>
+<tr><td colspan="3" bgcolor="#EDF4EE">
+<details open>
+<summary><strong>Browse 4 data categories</strong></summary>
+<br>
+<table width="100%" border="0" cellpadding="8" cellspacing="6">
+<tr>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/SatelliteData/tree/main/RemoteSensingImagery"><strong>Remote Sensing Imagery</strong></a><br>Open imagery datasets and data-access platforms.</td>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/SatelliteData/tree/main/OrbitalData"><strong>Orbital Data</strong></a><br>TLE sets, ephemerides, and related orbital products.</td>
+</tr>
+ <tr></tr>
+<tr>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/SatelliteData/tree/main/TelemetryData"><strong>Telemetry Data</strong></a><br>Satellite telemetry datasets and collection information.</td>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/SatelliteData/tree/main/CommunicationData"><strong>Communication Data</strong></a><br>Communication datasets and link measurements.</td>
 </tr>
 </table>
-
-<a href="https://github.com/OPEN-TianSuan/SimulationPlatform">Explore Simulation Platform →</a>
-
-🗂️ Satellite Data
-
-Open datasets and data-access resources for satellite computing research.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>🖼️ Remote Sensing Imagery</h3>
-
-Open remote-sensing datasets and data-access platforms.
-
-<a href="https://github.com/OPEN-TianSuan/SatelliteData/tree/main/RemoteSensingImagery">Browse Datasets →</a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>🪐 Orbital Data</h3>
-
-Orbital products, including Two-Line Element (TLE) sets and ephemerides.
-
-<a href="https://github.com/OPEN-TianSuan/SatelliteData/tree/main/OrbitalData">Browse Data →</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3>📈 Telemetry Data</h3>
-
-Satellite telemetry datasets and related collection information.
-
-<a href="https://github.com/OPEN-TianSuan/SatelliteData/tree/main/TelemetryData">Browse Data →</a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>📡 Communication Data</h3>
-
-Communication datasets, link measurements, and related records.
-
-<a href="https://github.com/OPEN-TianSuan/SatelliteData/tree/main/CommunicationData">Browse Data →</a>
-
-</td>
-</tr>
+</details>
+</td></tr>
 </table>
 
-📚 Technical Literature
+<br>
 
-A curated knowledge base for satellite computing and related space systems.
-
-<table>
+<table width="100%" border="1" cellpadding="10" cellspacing="0">
 <tr>
-<td width="50%" valign="top">
-
-<h3>📄 Research Papers</h3>
-
-Research papers from leading conferences and journals.
-
-<a href="https://github.com/OPEN-TianSuan/TechnicalLiterature/tree/main/ResearchPapers">Browse Papers →</a>
-
+<td width="1%" bgcolor="#416B4D">&nbsp;</td>
+<td width="10%" align="center" bgcolor="#B5CEBA"><h1>07</h1></td>
+<td bgcolor="#C5DCC9">
+<h2>📚 Technical Literature</h2>
+<p><strong>Research and engineering knowledge</strong> for space computing and related satellite systems.</p>
+<p><a href="https://github.com/OPEN-TianSuan/TechnicalLiterature"><strong>Explore Technical Literature &rarr;</strong></a></p>
 </td>
-<td width="50%" valign="top">
-
-<h3>📖 Technical Documentation</h3>
-
-Standards, technical specifications, research reports, and engineering guidelines.
-
-<a href="https://github.com/OPEN-TianSuan/TechnicalLiterature/tree/main/TechnicalDocumentation">Browse Documentation →</a>
-
-</td>
+</tr>
+<tr><td colspan="3" bgcolor="#EDF4EE">
+<details open>
+<summary><strong>Browse 2 knowledge collections</strong></summary>
+<br>
+<table width="100%" border="0" cellpadding="8" cellspacing="6">
+<tr>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/TechnicalLiterature/tree/main/ResearchPapers"><strong>Research Papers</strong></a><br>Research papers from leading conferences and journals.</td>
+<td width="50%" bgcolor="#FFFFFF"><a href="https://github.com/OPEN-TianSuan/TechnicalLiterature/tree/main/TechnicalDocumentation"><strong>Technical Documentation</strong></a><br>Standards, specifications, reports, and engineering guidelines.</td>
 </tr>
 </table>
-
-💬 Join the Community
-
-GitHub Discussions is our community space for questions, announcements, project introductions, and technical knowledge sharing.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>📢 Community Updates</h3>
-
-News, announcements, and project updates.
-
-</td>
-<td width="50%" valign="top">
-
-<h3>📚 Research Discussions</h3>
-
-Research ideas, technical questions, and knowledge exchange.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3>🔧 Open-Source Projects</h3>
-
-Software demonstrations, tools, and project introductions.
-
-</td>
-<td width="50%" valign="top">
-
-<h3>🛰️ Satellite Resources</h3>
-
-Datasets, technical documentation, and engineering resources.
-
-</td>
-</tr>
+</details>
+</td></tr>
 </table>
 
-Have an idea, a question, or a useful resource to share? Start a discussion and connect with the community.
+Our repositories are continuously updated as new projects, tools, datasets, and research resources become available.
 
-We welcome introductions to your own satellite-related software, tools, datasets, research projects, and open-source contributions.
+---
 
-<p align="center">
-<a href="https://github.com/orgs/OPEN-TianSuan/discussions">
-<img src="https://img.shields.io/badge/Join%20OPEN%20TianSuan%20Discussions-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Join Discussions">
-</a>
-</p>
+## 💬 Community Discussions
 
-🤝 Contributing
-
-OPEN TianSuan welcomes researchers, developers, students, and space enthusiasts who want to contribute to the open-source space computing ecosystem.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-💡 Ideas and Requests
-
-Propose new directions, features, or community initiatives.
-
-</td>
-<td width="50%" valign="top">
-
-📦 Resource Recommendations
-
-Share useful software, datasets, papers, standards, and documentation.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-🚀 Open-Source Projects
-
-Introduce your satellite-related projects and reusable resources.
-
-</td>
-<td width="50%" valign="top">
-
-🔍 Issues and Improvements
-
-Report problems, improve documentation, and suggest enhancements.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-💻 Code Contributions
-
-Contribute implementations, tools, experiments, and software components.
-
-</td>
-<td width="50%" valign="top">
-
-🌍 Community Collaboration
-
-Connect with others and help grow the space computing ecosystem.
-
-</td>
-</tr>
-</table>
-
-Whether you are developing flight software, exploring onboard AI, building satellite networks, or conducting space computing research, you are welcome to participate.
+**Questions, project introductions, resource recommendations, and research ideas are all welcome.** Share what you are building, ask for feedback, or help others navigate the satellite software ecosystem.
 
 <div align="center">
 
-🛰️ Explore · Share · Build for Space
+[![Join GitHub Discussions](https://img.shields.io/badge/Join%20OPEN%20TianSuan%20Discussions-2f634f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orgs/OPEN-TianSuan/discussions)
 
-OPEN TianSuan
+</div>
 
-Advancing Space Computing Through Open Collaboration.
+## 🤝 Contributing
+
+Researchers, developers, students, and space enthusiasts can contribute by recommending resources, introducing open-source projects, improving documentation, reporting issues, or submitting code. Start with a relevant repository or open a [community discussion](https://github.com/orgs/OPEN-TianSuan/discussions).
+
+---
+
+<div align="center">
+
+**Explore · Share · Build for Space 🛰️**
+
+*OPEN TianSuan — Advancing Space Computing Through Open Collaboration*
 
 </div>
