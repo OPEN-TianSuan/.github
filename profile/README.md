@@ -302,6 +302,35 @@ Platforms and tools for benchmarking and evaluating satellite workloads.
 Our repositories are continuously updated as new projects, tools, datasets, and research resources become available.
 
 ---
+## 📅 Community Activity Timeline
+
+Follow key research milestones and updates across OPEN TianSuan. New activities, project releases, workshops, and community events can be added here as they are announced.
+
+<!-- TIMELINE START: Add verified events above older entries, using the same <tr> structure. -->
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
+<tr>
+<td width="18%" align="right" valign="top">
+<strong>Nov 24, 2026</strong>
+</td>
+<td width="7%" align="center" valign="top">
+🟢
+</td>
+<td valign="top">
+<strong>Community Resource Catalog</strong> &nbsp; <sub>COMMUNITY</sub>
+<br>
+OPEN TianSuan brings together seven resource areas spanning the computing stack, simulation, engineering tools, satellite data, and technical literature. Selected datasets and resources are already available, while additional content is being continuously curated and expanded.
+<br>
+<a href="https://github.com/OPEN-TianSuan"><strong>Explore the repositories →</strong></a>
+</td>
+</tr>
+</table>
+<!-- TIMELINE END -->
+
+<sub>Have an activity or project milestone to share? <a href="https://github.com/orgs/OPEN-TianSuan/discussions">Post it in Community Discussions</a>.</sub>
+
+---
+
+
 
 ## 💬 Community Discussions
 
