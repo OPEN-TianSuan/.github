@@ -325,13 +325,6 @@ Follow key milestones, project releases, and community updates from OPEN TianSua
 
 
 
-
-
-
-Have an activity or project milestone to share? [Post it in Community Discussions](https://github.com/orgs/OPEN-TianSuan/discussions).
-
-
-
 ## 💬 Community Discussions
 
 **Questions, project introductions, resource recommendations, and research ideas are all welcome.** Share what you are building, ask for feedback, or help others navigate the satellite software ecosystem.
@@ -341,10 +334,6 @@ Have an activity or project milestone to share? [Post it in Community Discussion
 [![Join GitHub Discussions](https://img.shields.io/badge/Join%20OPEN%20TianSuan%20Discussions-2f634f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orgs/OPEN-TianSuan/discussions)
 
 </div>
-
-## 🤝 Contributing
-
-Researchers, developers, students, and space enthusiasts can contribute by recommending resources, introducing open-source projects, improving documentation, reporting issues, or submitting code. Start with a relevant repository or open a [community discussion](https://github.com/orgs/OPEN-TianSuan/discussions).
 
 ---
 
