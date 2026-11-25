@@ -37,7 +37,7 @@ OPEN TianSuan organizes open-source resources into seven major areas, covering t
   <img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/architecture-en.png" width="100%" alt="OPEN TianSuan community architecture in English">
 </p>
 
-<details>
+<details open>
 <summary>Chinese Architecture</summary>
 <p align="center">
   <img src="https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/assets/architecture-zh.png" width="100%" alt="OPEN TianSuan community architecture in Chinese">
@@ -317,11 +317,11 @@ Follow key milestones, project releases, and community updates from OPEN TianSua
 
 ### 🟢 November 25, 2026
 
-> **Runtime Support - Resumable Inference** · `Infrastructure Layer`
+> **Runtime Support — Resumable Inference** ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square)· `Infrastructure Layer`
 >
 > OPEN TianSuan introduces resources for resumable model inference, enabling interrupted inference tasks to resume from saved execution progress rather than restart from the beginning.
 >
-> **[Explore it →]([https://github.com/OPEN-TianSuan](https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/RuntimeSupport/ResumableInference))**
+> **[Explore it →](https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/RuntimeSupport/ResumableInference)**
 
 
 
