@@ -20,7 +20,7 @@ A community for satellite software, computing platforms, engineering resources, 
 
 Space computing brings together aerospace, communications, and computer science. As satellite constellations expand and computing moves into orbit, software must span spacecraft platforms, onboard execution, communication networks, and mission applications. These challenges cross disciplines and organizations. **Shared implementations, data, and experimental knowledge help researchers reproduce results and build on one another's work.**
 
-Our [ASE 2026 study](https://doi.org/10.1145/3832783.3834343) surveys the open-source satellite software landscape. Projects such as NASA's [cFS](https://github.com/nasa/cFS), JPL's [F'](https://github.com/nasa/fprime), and the community ground-station network [SatNOGS](https://satnogs.org/) demonstrate the value of reusable software and open collaboration. Initiatives such as the [Tiansuan Constellation](http://www.tiansuan.org.cn/) also help extend opportunities for research involving real spacecraft.
+Our [ASE 2026 study](https://doi.org/10.1145/3832783.3834343) surveys the open-source satellite software landscape and demonstrates the value of reusable software and open collaboration. Initiatives such as the [Tiansuan Constellation](http://www.tiansuan.org.cn/) also help extend opportunities for research involving real spacecraft.
 
 Yet the ecosystem remains fragmented: software and documentation are scattered, shared datasets and benchmarks are limited, and reproducing published experiments can be difficult. **OPEN TianSuan brings these resources together so that more people can discover, reuse, evaluate, and contribute to space computing.**
 
