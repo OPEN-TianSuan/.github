@@ -302,7 +302,7 @@ Platforms and tools for benchmarking and evaluating satellite workloads.
 Our repositories are continuously updated as new projects, tools, datasets, and research resources become available.
 
 ---
-## 📅 Community Activity Timeline
+## 🕒 Community Activity Timeline
 
 Follow key research milestones and updates across OPEN TianSuan. New activities, project releases, workshops, and community events can be added here as they are announced.
 
