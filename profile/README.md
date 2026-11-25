@@ -216,7 +216,7 @@ Resources for software updates and reliability assurance.
 <td width="10%" align="center" bgcolor="#B5CEBA"><h1>05</h1></td>
 <td bgcolor="#C5DCC9">
 <h2>🛠️ Engineering Tools</h2>
-<p><strong>Reusable development resources and evaluation tools</strong> for satellite software. Resuable development resources represent flight-software frameworks, framework extensions, protocol stacks, libraries, and supporting development components. Evaluation tools represent some benchmarks and evaluation systems.</p>
+<p><strong>Reusable development resources and evaluation tools</strong> for satellite software, including flight software frameworks, extensions, protocol stacks, libraries, supporting components, benchmarks, and evaluation platforms.</p>
 <p><a href="https://github.com/OPEN-TianSuan/EngineeringSupport"><strong>Explore Engineering Tools &rarr;</strong></a></p>
 </td>
 </tr>
