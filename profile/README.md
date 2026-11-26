@@ -311,11 +311,11 @@ Follow key milestones, project releases, and community updates from OPEN TianSua
 
 > **Community Resource Catalog** · `COMMUNITY`
 >
-> OPEN TianSuan organizes seven resource areas covering the computing stack, simulation, engineering tools, satellite data, and technical literature. Initial datasets and resources are already available, with more being added over time.
+> OPEN TianSuan organizes seven resource areas covering the core computing stack (application layer, compute operations layer, infrastructure layer), simulation, engineering tools, satellite data, and technical literature. Initial data and resources are already available, with more being added over time.
 >
 > **[Explore the repositories →](https://github.com/OPEN-TianSuan)**
 
-### 🟢 November 25, 2026
+### 🟢 November 26, 2026
 
 > **Runtime Support — Resumable Inference** ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square)· `Infrastructure Layer`
 >
