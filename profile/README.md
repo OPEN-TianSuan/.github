@@ -315,7 +315,7 @@ Follow key milestones, project releases, and community updates from OPEN TianSua
 >
 > **[Explore the repositories →](https://github.com/OPEN-TianSuan)**
 
-### 🟢 November 26, 2026
+### 🟢 November 25, 2026
 
 > **Runtime Support — Resumable Inference** ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square)· `Infrastructure Layer`
 >
