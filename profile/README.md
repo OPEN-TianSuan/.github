@@ -315,14 +315,6 @@ Follow key milestones, project releases, and community updates from OPEN TianSua
 >
 > **[Explore the repositories →](https://github.com/OPEN-TianSuan)**
 
-### 🟢 November 25, 2026
-
-> **Runtime Support — Resumable Inference** ![NEW](https://img.shields.io/badge/NEW-red?style=flat-square)· `Infrastructure Layer`
->
-> OPEN TianSuan introduces resources for resumable model inference, enabling interrupted inference tasks to resume from saved execution progress rather than restart from the beginning.
->
-> **[Explore it →](https://github.com/OPEN-TianSuan/InfrastructureLayer/tree/main/RuntimeSupport/ResumableInference)**
-
 
 
 ## 💬 Community Discussions
