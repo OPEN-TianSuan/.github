@@ -6,7 +6,7 @@
 
 **Discover open technologies. Reuse proven ideas. Build for space.**
 
-A community for satellite software, computing platforms, engineering resources, open datasets, and research knowledge.
+An open-source community for space computing, dedicated to sharing technologies designed for in-orbit operation, as well as technologies and datasets validated through in-orbit experiments.
 
 [![Repository Views](https://raw.githubusercontent.com/OPEN-TianSuan/.github/main/traffic/sum.svg)](https://github.com/OPEN-TianSuan/.github/tree/main/traffic "Cumulative recorded repository views")
 [![GitHub Discussions](https://img.shields.io/badge/GitHub-Join%20Discussions-2f634f?style=flat-square&logo=github)](https://github.com/orgs/OPEN-TianSuan/discussions)
